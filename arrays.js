@@ -1,7 +1,7 @@
 // ---------------------------
 // The Arrays You Will Work With
 // ---------------------------
-var numbers = [1,12,4,18,9,7,11,3,101,5,6];
+
 var strings = ['this','is','a','collection','of','words'];
 var instructors = [
     { firstname : 'JD', teaches : 'JavaScript'},
@@ -19,6 +19,21 @@ var instructors = [
 // 1. Find largest number
 // ---------------------------
 
+
+var numbers = [1,12,4,18,9,7,11,3,101,5,6];
+
+function lNumber(numbers) {
+	let largestNumber = ""
+	let a = numbers.length
+		for (i = 0; i < a; i++) {
+			if(numbers[i] > largestNumber) {
+				return numbers[i]
+			} else {
+				return largestNumber
+			}
+		} return largestNumber
+}
+/*
 
 // ---------------------------
 // 2. Find longest string
@@ -52,4 +67,4 @@ var instructors = [
 // ---------------------------
 // 6. Use the Instructors array and find all that teach JavaScript, 
 //    then sort them alphabetically
-// ---------------------------
+// ---------------------------    */

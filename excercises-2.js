@@ -66,7 +66,7 @@ console.assert(isVowel("B") === false);
 console.assert(isVowel("b") === false);
 console.assert(isVowel("a") === true);
 console.assert(isVowel("E") === true);
-console.assert(isVowel("2") === false)
+console.assert(isVowel("2") === false);
 
 
 // ---------------------
@@ -113,7 +113,7 @@ function reverse(str) {
 	var reverseString = ""
 
 	for (let i = str.length - 1; i >= 0; i--) {
-		reverseString += str.charAt(i)
+		reverseString = reverseString + str.charAt(i)
 	} return reverseString
 }
 
