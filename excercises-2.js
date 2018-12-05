@@ -32,8 +32,12 @@ function maxOfThree(a, b, c) {
 		} else {
 			return c
 		}
-	}else { (b>c)
-		return b
+	}else {
+		if (b>c) {
+			return b
+		} else {
+			return c
+		}
 	}
 }
 
